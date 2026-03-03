@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Class Diagram">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="user" value="User
+-------------------
+id : Long
+email : String
+passwordHash : String
+fullName : String
+role : String
+createdAt : Date
+-------------------
+register()
+login()
+updateProfile()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="250" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="student" value="Student
+-------------------
+buyCourse()
+leaveReview()
+viewCourse()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="220" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="author" value="Author
+-------------------
+createCourse()
+editCourse()
+deleteCourse()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="220" height="150" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="admin" value="Admin
+-------------------
+blockUser()
+deleteCourse()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="220" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="course" value="Course
+-------------------
+id : Long
+title : String
+description : String
+price : BigDecimal
+contentUrl : String
+authorId : Long
+createdAt : Date
+-------------------
+updateInfo()
+delete()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="260" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="order" value="Order
+-------------------
+id : Long
+studentId : Long
+course : String
+amount : BigDecimal
+status : OrderStatus
+createdAt : Date
+-------------------
+pay()
+cancel()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="360" width="260" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="payment" value="Payment
+-------------------
+id : Long
+orderId : Long
+amount : BigDecimal
+paymentMethod : String
+status : PaymentStatus
+paidAt : Date
+-------------------
+process()
+refund()" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="360" width="260" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="review" value="Review
+-------------------
+id : Long
+studentId : Long
+courseId : Long
+rating : int
+comment : String
+createdAt : Date" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="100" width="260" height="180" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
