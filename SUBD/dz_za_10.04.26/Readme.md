@@ -1,0 +1,90 @@
+1 задание:
+В бд созданы 3 таблицы : airplanes airports	timetable
+По ним созданы view,
+view это заготовленный sql запрос сохраненный в бд, в данном случае для мониторинга 
+
+Все View, 
+
+bookings	airplanes
+bookings	airports
+bookings	timetable
+pg_catalog	pg_available_extension_versions
+pg_catalog	pg_available_extensions
+pg_catalog	pg_backend_memory_contexts
+pg_catalog	pg_config
+pg_catalog	pg_cursors
+pg_catalog	pg_file_settings
+pg_catalog	pg_group
+pg_catalog	pg_hba_file_rules
+pg_catalog	pg_indexes
+pg_catalog	pg_locks
+pg_catalog	pg_matviews
+pg_catalog	pg_policies
+pg_catalog	pg_prepared_statements
+pg_catalog	pg_prepared_xacts
+pg_catalog	pg_publication_tables
+pg_catalog	pg_replication_origin_status
+pg_catalog	pg_replication_slots
+pg_catalog	pg_roles
+pg_catalog	pg_rules
+pg_catalog	pg_seclabels
+pg_catalog	pg_sequences
+pg_catalog	pg_settings
+pg_catalog	pg_shadow
+pg_catalog	pg_shmem_allocations
+pg_catalog	pg_stat_activity
+pg_catalog	pg_stat_all_indexes
+pg_catalog	pg_stat_all_tables
+pg_catalog	pg_stat_archiver
+pg_catalog	pg_stat_bgwriter
+pg_catalog	pg_stat_database
+pg_catalog	pg_stat_database_conflicts
+pg_catalog	pg_stat_gssapi
+pg_catalog	pg_stat_progress_analyze
+pg_catalog	pg_stat_progress_basebackup
+pg_catalog	pg_stat_progress_cluster
+pg_catalog	pg_stat_progress_copy
+pg_catalog	pg_stat_progress_create_index
+pg_catalog	pg_stat_progress_vacuum
+pg_catalog	pg_stat_replication
+pg_catalog	pg_stat_replication_slots
+pg_catalog	pg_stat_slru
+pg_catalog	pg_stat_ssl
+pg_catalog	pg_stat_subscription
+pg_catalog	pg_stat_sys_indexes
+pg_catalog	pg_stat_sys_tables
+pg_catalog	pg_stat_user_functions
+pg_catalog	pg_stat_user_indexes
+pg_catalog	pg_stat_user_tables
+pg_catalog	pg_stat_wal
+pg_catalog	pg_stat_wal_receiver
+pg_catalog	pg_stat_xact_all_tables
+pg_catalog	pg_stat_xact_sys_tables
+pg_catalog	pg_stat_xact_user_functions
+pg_catalog	pg_stat_xact_user_tables
+pg_catalog	pg_statio_all_indexes
+pg_catalog	pg_statio_all_sequences
+pg_catalog	pg_statio_all_tables
+pg_catalog	pg_statio_sys_indexes
+pg_catalog	pg_statio_sys_sequences
+pg_catalog	pg_statio_sys_tables
+pg_catalog	pg_statio_user_indexes
+pg_catalog	pg_statio_user_sequences
+pg_catalog	pg_statio_user_tables
+pg_catalog	pg_stats
+pg_catalog	pg_stats_ext
+pg_catalog	pg_stats_ext_exprs
+pg_catalog	pg_tables
+pg_catalog	pg_timezone_abbrevs
+pg_catalog	pg_timezone_names
+pg_catalog	pg_user
+pg_catalog	pg_user_mappings
+pg_catalog	pg_views
+
+
+2 задача:
+Триггеры в базе данных — это автоматические действия, которые выполняются при определённых событиях с данными
+например при Select Delete Insert
+При произведения какогогото дейсвия выполняется sql запрос например логирование или автозаполнение
+
+тригерров в бд нету
